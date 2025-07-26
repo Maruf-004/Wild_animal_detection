@@ -10,8 +10,8 @@ This project implements real-time animal detection in videos using YOLOv11m. It 
 
 | Original Test Image | YOLOv11n Detection Output |
 |---------------------|---------------------------|
-| ![](test_images/lion1.jpg) | ![](test_results/lion1_detected.jpg) |
-| ![](test_images/tiger2.jpg) | ![](test_results/tiger2_detected.jpg) |
+| ![](Elephant.jpg) | ![](test_results/lion1_detected.jpg) |
+| ![](Rihno1.jpg) | ![](test_results/tiger2_detected.jpg) |
 
 
 ## 🚀 Features

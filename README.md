@@ -8,7 +8,7 @@ This project implements real-time animal detection in videos using YOLOv11m. It 
 - `Test result/`: Folder containing sample results from test images.
 ## 📸 Sample Detection Results
 
-![](Test result sample/Elephant.jpg) | ![](Test result sample/Rhino.jpg) 
+![](Elephant.jpg) | ![](Giraffe.jpg) 
 
 
 ## 🚀 Features

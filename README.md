@@ -5,8 +5,13 @@ This project implements real-time animal detection in videos using YOLOv11m. It 
 ## 📁 Project Structure
 
 - `AnimalDetection.ipynb`: Main notebook containing training and inference steps.
-- `weights/best.pt`: Trained model checkpoint.
 - `Test result/`: Folder containing sample results from test images.
+## 📸 Sample Detection Results
+
+| Original Test Image | YOLOv11n Detection Output |
+|---------------------|---------------------------|
+| ![](test_images/lion1.jpg) | ![](test_results/lion1_detected.jpg) |
+| ![](test_images/tiger2.jpg) | ![](test_results/tiger2_detected.jpg) |
 
 
 ## 🚀 Features
@@ -28,8 +33,21 @@ cd AnimalDetection
 !pip install ultralytics
 
 #Training is done using YOLOv11m:
-!yolo task=detect mode=train model=yolov11m.pt data=custom_data.yaml epochs=50 imgsz=640```
+!yolo task=detect mode=train model=yolov11m.pt data=custom_data.yaml epochs=50 imgsz=640
+```
 
+**🔧 Technologies Used**
+YOLOv11n (Ultralytics)
 
+Python 3.x
 
+OpenCV for image and video processing
 
+Google Colab for training and testing
+
+**Author**
+Md. Maruf
+
+📧 maruf.mte.17@gmail.com
+
+🔗 [Google Site](https://sites.google.com/view/maruf004)
